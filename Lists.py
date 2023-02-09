@@ -1,19 +1,38 @@
-#1)What is RANDOMISATION? (used alot in games)
+# List is a "Data Structure" = a way of organising and storing data in 
+# eg a = 3
 
-# To generate a random integer:
-#     randint(a,b)
+# storing group data:
+# Storing order data 
 
-import random #Must be called before running any random code
-# random_integer = random.randint(1,10) #This code will give us a random number between 1 - 10
-# print(random_integer)
+# List code
 
-# 2)What is a MODULE
-# split code up into individual modules responsible for different parts of the code. eg building a car, some people work on wheel moduel, engine module etc
+# fruit = []
 
-# 3)How to create random floating point numbers?
-# random_float = random.random() #will always print random numbers between 0-1
-# print(random_float)
+# fruits = [item1, item2]
 
-#BUT how to create a random float between 0 - 5?
-random_float = random.random() * 5
-print(random_float)
+# fruits = ["cherry", "apple", "pear"]
+
+states_america = ["New York", "virginia", "California", "Florida", "Pennsylvania", "New Jersey", "Tennesse"]
+# print(states_america)
+
+# EG lets say we need an order of which the states joined the union
+print(states_america[0])
+
+print(states_america[-1]) #COUNTS FROM THE END OF THE LIST
+
+#How to change items in a list
+states_america[-1] = "Tunassesey"
+print (states_america)
+
+#How to add to the list
+states_america.append("Shomarriland") #Adds single item to the end of the list
+print(states_america)
+
+states_america.extend(["New Mexico", "Arizona", "Hawaii", "Utah"]) #Adds a whole bunch of items to list
+print(states_america)
+
+
+
+
+
+
